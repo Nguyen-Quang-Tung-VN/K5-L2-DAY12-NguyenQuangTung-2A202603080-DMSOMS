@@ -11,3 +11,5 @@ __pycache__/
 *.pyc
 .DS_Store
 .env*
+gui_cho_peer/
+*cho_peer*
