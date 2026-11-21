@@ -1,0 +1,5 @@
+File: export_final_v2.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=8, face=10, face13=5, hand=11, infant_seat=12, object=4, person=10, phone=1
+  [WARN] D01.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+Kết quả: 0 lỗi, 1 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+Giải thích WARN D01.png: Ảnh D01 nghiêng góc 90 độ và vùng mắt trái tài xế nằm sát mép kính/khuất bóng tối nên không khẳng định được mí mắt nhắm hay mở; theo luật 4.4-1 không thấy thì chọn eye_left=unknown nhưng vẫn ước lượng được toạ độ mốc mắt nên không bật cờ outside.

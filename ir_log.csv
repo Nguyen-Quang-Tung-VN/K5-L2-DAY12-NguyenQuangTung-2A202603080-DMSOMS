@@ -1,0 +1,7 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,"Áo len tối màu trong bóng râm mất hoàn toàn chi tiết màu sắc so với ảnh RGB, độ tương phản thấp",person (appearance),"Không gán nhãn thuộc tính màu; nhận diện người dựa trên đường bao cơ thể thay vì màu áo"
+S02_ir,IR_sim,"Vùng tối ở khe ghế giữa không phân biệt được chốt khóa dây an toàn",seatbelt,"Giữ seatbelt=unknown (theo luật 4.4-1 không thấy thì unknown)"
+S04_ir,IR_sim,"Không xuất hiện quầng sáng hay hiện tượng phản xạ đốm LED thật trên bề mặt nhựa bóng của ghế trẻ em",frame_meta.light,"Xác nhận là ảnh tổng hợp IR mô phỏng, thuộc tính light giữ unknown"
+D01,real_IR,"Đèn LED hồng ngoại 940nm chiếu nghiêng tạo đốm phản xạ lóa sáng trên tròng kính cận",left_eye_state,"Không nhìn rõ mí mắt dưới vết lóa nên thuộc tính mắt gán unknown, điểm mốc mắt đánh cờ occluded=1"
+D03,real_IR,"Tròng kính mắt hiển thị trong suốt dưới bước sóng NIR dù mắt thường/RGB thấy tối",glasses,"Vẫn nhận diện được người đang đeo kính cận (glasses=clear), không bị nhầm là kính râm"
+D04,real_IR,"Ánh sáng hồng ngoại suy giảm nhanh theo khoảng cách (vùng tay và vô lăng sáng rõ hơn vùng thân dưới)",phone,"Điện thoại ở gần vị trí tay nhận diện rõ hình dạng cạnh và màn hình"
